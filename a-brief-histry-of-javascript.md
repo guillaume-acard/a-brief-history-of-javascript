@@ -5,6 +5,18 @@ Note:
 - I believe we dont learn enough history in computering
 - We usually learn about it math or physics but little in computering
 - Explains why things are in a certain way and how to better apreciate what you have
+- JS has long been a misunderstood language with a bad reputation (its better now)
+- JavaScript shaped and is shaping our development of today, weather you want it or not
+
+
+---
+
+# And who am I?
+
+Note: 
+- Built a startup Called Twoodo in 2012 during the explosion of JS frameworks and continued up until 2016
+- Got possionate about webdev and tried lots of different frameworks and techs during this time
+- kinda became the web advocate internally at Itiviti
 
 >>>
 
@@ -13,13 +25,29 @@ Note:
 
 ![Browser wars](./public/browser-wars.png) <!-- .element: class="fragment" -->
 
+Note:
+- The Pre-Javascript era
+- A period of time known as the Browser Wars!
+
 ---
 
 ## 1993 - NCSA Mosaic browser
 ![Mosaic](./public/mosaic-browser.png)
 
 Note:
-- Got popular because of the <img> tag
+- Started in University of illinois
+- NATIONAL CENTER FOR SUPERCOMPUTING APPLICATIONS
+- Students got together and wanted to build a Browser based on Time-Berneers lee specifications
+- Got popular because of the "img" tag (that was not standard) not as intended by the w3c
+
+---
+
+## Time Berner Lee
+![Time Berner Lee](/./public/time-berners-lee.jpg)
+
+Note:
+- Create or the WWW
+- Founded the W3C in 1994
 
 ---
 
@@ -29,20 +57,13 @@ Note:
 Internal Codename: Mosaic Gozilla <!-- .element: class="fragment" -->
 
 Note:
+- Jim Clarc, founder of Silicon Graphics, hardware manifacture
 - Code name, to kill mosaic (why mozilla firefox)
+- Made it more popular very quickly than other browsers
 - They managed to kill Mosaic, got around 3/4 of the market share in a very short period of time 
 - Rapid expansion but inovating alot
 - Added tags that where not part of Time Berners Lee recommandation. I will talk about after
 - When Netscape 2. (1995) came out it went public (after only 1 year!), the founder made about 600m$ that day...
-
----
-
-## Time Berner Lee
-![Time Berner Lee](/./public/time-berners-lee.jpg)
-
-Note:
-- Create or the WWW
-- Founder of the W3C
 
 ---
 
@@ -51,10 +72,12 @@ Note:
 <marquee>BOOM! The marquee tag still works!</marquee>
 
 Note:
+<small>
 - The era of the `blink` and `marquee` tags for eg. The joys of the 80s.
 - Interativity at the time was pretty much limited to these kind of things
-- The blink tag was apperently created after a Netscape engineer called Lou Montulli jokes at a bar with co-workers about his previous job working on a text-based linux browser (Lynx). Monulli joked the only "effect" it probably could handle was blinking text. The next day one his co-worker created it. It eventually got ship in the next version of Netscape.
+- The blink tag was apperently created after a Netscape engineer called Lou Montulli jokes at a bar with co-workers about his previous job working on a text-based linux browser (Lynx). He joked the only "effect" it probably could handle was blinking text. The next day one his co-worker created it. It eventually got ship in the next version of Netscape.
 - And Microsoft did not want to be miss the party and created soon after the marquee tag...
+</small>
 
 ---
 ## Click...
@@ -83,6 +106,18 @@ Note:
 - Netscape wanted something  more than just the DOM
 - They wanted interactivity in the browser
 - We need a scripting language in the Browser
+- They wanted more interactivity
+
+---
+
+Apple released HyperCard 2.0 in 1990
+
+![hypercard](./public/hypercard.jpg)]
+
+Note:
+- You could attach scripts to buttons and cards
+- This is what made Macintosh programming really easy for many applications. 
+- Wanted the same for a web-page
 
 >>>
 
@@ -173,7 +208,7 @@ Note:
 
 JavaScript is not perfect and has issues? <!-- .element: class="fragment" -->
 
-Of course, give me a break! <!-- .element: class="fragment" -->
+Of course, give JS a break! <!-- .element: class="fragment" -->
 
 ![WTF Brendan](./public/brendan-eich-wtf.jpg) <!-- .element: class="fragment" -->
 
@@ -182,14 +217,14 @@ Got shipped in Netscape 2.0 - Sept 1995 <!-- .element: class="fragment" -->
 Note:
 - I am sure he had some idea how and design ready 
 - But PoC was done in 10 days and very little extra polissh went in the final version
-
+- Most languages would take at years before being launched
 ---
 
 It was also the first browser to have animated gif!
 
 ![Like a Boss](./public/like_a_boss.gif) <!-- .element: class="fragment" -->
 
->>>
+---
 
 Then Microsoft came in the game
 
@@ -202,9 +237,10 @@ JScript <!-- .element: class="fragment" -->
 Netscape "We need a standard quick!" <!-- .element: class="fragment red" -->
 
 Note:
-- Then Microsoft came in the game
+- Then Microsoft came in the game as NEtscape said they would destroy MS
 - Copied the model of netscape (as they did at the time, copy and destroy)
 - Reveresed engineered, even the bugs! But not everything worked exactly the same.
+- So they created JScript! This lead to compatiblity issues over time and the these wonderfull widgets.
 - They needed a standard as worried Microsoft would eat up the market
 
 ---
@@ -221,6 +257,12 @@ Note:
 <span class="fragment">
     <img class="logo" src="./public/ecma.jpg" />
 </span>
+
+Note:
+- W3c Was more than happy to tell them to go to hell
+- ECMA: European Computer Manufacturers Association
+- Long way for a company in California
+- Luckily MS would also be part of this commitee 
 
 ---
 
@@ -254,11 +296,15 @@ Or more simply ES <!-- .element: class="fragment" -->
 But who cares... lets just call it JavaScript... <!-- .element: class="fragment" -->
 
 >>>
-## It could have ended here
+# It could have ended here
 
 JavaScript could have died with Netscape (~1999) <!-- .element: class="fragment" -->
 
 <span class="fragment">It survived thanks (?) to Microsoft who ~~copied~~ developed JScript</span>
+
+Note:
+- Netscape continued to dominate, but quickly started to struggle against MS with the latest IE5 who became the market leader
+- Netscape eventually made the engine open-source and this was the start of Firefox
 
 ---
 
@@ -269,6 +315,10 @@ In 2000 started the famous IE5/6 Era
 Development of JS essentially stopped here <!-- .element: class="fragment" -->
 
 <span class="fragment">But before MS added the <span class="blue">XMLHttpRequest</span> object...</span>
+
+Note:
+- MS did not really believe on that their growth would be linked to the internet at the time
+- More focused on Windows and Office
 
 ---
 
@@ -283,6 +333,11 @@ It took 5 years (2005) before it's full potential was used
 
 Ajax and JQuery renwed interest in JavaScript  <!-- .element: class="fragment" -->
 
+Note:
+- in 2005 Jesse James Garrett coined the term AJAX
+- JQuery became so popular that people would sometime miuxed JS and Jquery
+- Not fully understanding they are different things
+
 >>>
 
 # Growing up
@@ -295,7 +350,39 @@ Its sudden rise to success also meant it quickly became one of the most misunder
 ![The good parts](./public/javascript-and-the-good-parts.jpg) <!-- .element: class="fragment" -->
 
 Note:
-- Its sudden growth required new tools, transipiling became a thing
+- Its sudden growth required made more people use the lamguage
+- With more people using, more people misunderstood it
+- Very known meme picture of JavaScript. Books written by Douglas Crockford. Highly recommend 
+
+---
+
+### Bad parts and common misconceptions
+
+* JavaScript has to many crap syntax elements <!-- .element: class="fragment" -->
+    * Yes... but they can be avoided! <!-- .element: class="fragment" -->
+    * Remember it was written in 10 days... <!-- .element: class="fragment" -->
+* JavaScript is slow! <!-- .element: class="fragment" -->
+    * True initially but mainly because of the DOM <!-- .element: class="fragment" -->
+    * When Chrome came out (2008) it added the JIT and greatly improved the DOM execution <!-- .element: class="fragment" -->
+* JavaScript is not... Java, C++ or Python! <!-- .element: class="fragment" -->
+    * Often forced to used it because of the Browser <!-- .element: class="fragment" -->
+    * One of the rare languages that can be used by professional and noobs <!-- .element: class="fragment" -->
+
+---
+
+## Cool kids tried to replace JavaScript! 
+<h3 class="fragment">2011 - <img class="logo" src="./public/dart.png"/> was supposed to be the next gen JS </h3>
+
+<small class="fragment">It failed... but the fact it transpiled to JS allowed it to survive</small>
+
+Transpilation became a trend: <!-- .element: class="fragment" -->
+
+If you cant get rid of it, transpile to it.  <!-- .element: class="fragment" -->
+
+Note:
+- Like for teanagers, some cool kid (Google) tried to bully JS out of the game
+- Dart was supposed to be the next gen browser languages, they even made it mative to a special verison of Chrome
+- This allowed better browser support and innovation
 
 ---
 
@@ -307,6 +394,10 @@ Me: “Fatigued.”
 Friend: “Family?”
 Me: “No, Javascript.”
 ```
+
+Note:
+- So many new framework and tools
+- The renaissance of JS
 
 ---
 
@@ -323,6 +414,9 @@ New frameworks where coming out all the time <!-- .element: class="fragment" -->
 ![vuejs](./public/vuejs.png) <!-- .element: class="fragment" -->
 
 And they all needed new tooling...  <!-- .element: class="fragment" -->
+
+Note: 
+- Backbone, dust, handlerbars
 
 ---
 
@@ -346,7 +440,7 @@ You needed a Script Loader and transpiler: <!-- .element: class="fragment" -->
 
 
 Note:
-- JQuery Crisis, we started thinking and build pages differently. Moving to the SPA design
+- R = Rollup
 
 ---
 
@@ -359,6 +453,8 @@ It became a race
 But eventually...
 
 ![so what](./public/another-tool-so-what-lol.jpeg)
+
+JavaScript was growing up <!-- .element: class="fragment" -->
 
 >>> 
 
@@ -386,18 +482,21 @@ But eventually...
 </ul>
 </small>
 
+Note:
+- Micromedia came into play with their ActionScript language that was intended as a superset of JS
+
 ---
 
 ## Many implementations
 
-| Implementation | Applications |
-|----------------|--------------|
+| Implementation | Applications         |
+|----------------|----------------------|
 | V8             | Google Chrome, Node.js, Opera |
 | SpiderMonkey   | Firefox, Gecko Layout Engine, Adobe Acrobat |
-| Nashorn        | Java |
-| JSCore (nitro)  | Webkit, Safari, Qt5 |
-| Chakra | Microsoft Edge |
-| JScript 9.0 | Internet Explorer |
+| Nashorn        | Java                 |
+| Nitro          | Webkit, Safari, Qt5  |
+| Chakra         | ~~Microsoft Edge~~   |
+| JScript 9.0    | Internet Explorer    |
 
 ---
 
@@ -405,22 +504,53 @@ Today JavaScript is the most popular language in the world for the last 8 years!
 
 ![Stackoverflow](./public/js-popularity.png)
 
+Also the most demanded Language by companies
+
 ---
 
 ## It has invaded all platforms
 
 Browser, Mobile, Server, Desktop, OS
 
+## It has stabilized
+
+Only a few dominating frameworks and better tooling
+
 >>> 
 
 # What lies ahead?
-Tomorrow and beyond <!-- .element: class="fragment" -->
+Today and beyond <!-- .element: class="fragment" -->
 
 ---
 
 # WebAssembly
 
-The end of the JavaScript monopoly <!-- .element: class="fragment" -->
+![webassembly](./public/webassembly.png)
+
+Also called WASM
+
+---
+
+### The concept
+
+![wasm](./public/webassembly_compile.png)
+
+---
+
+### Widely supported today
+![wasm-support](./public/wasm-support.png)
+
+---
+## DOOM 3 in the browser!
+
+Dont believe me?    
+https://wasm.continuation-labs.com/d3demo/
+
+Re-use existing code and port to the browser!  <!-- .element: class="fragment" -->
+
+---
+
+## The end of the JavaScript monopoly!
 
 >>>
 
