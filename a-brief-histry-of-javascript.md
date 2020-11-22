@@ -54,7 +54,7 @@ Note:
 ## 1994 - Netscape Naviguator 
 ![Netscape](./public/netscape.gif)
 
-Internal Codename: Mosaic Gozilla <!-- .element: class="fragment" -->
+<p class="fragment">Internal Codename: Mosaic Gozilla <img class="logo" src="./public/mozilla.png"/></p>
 
 Note:
 - Jim Clarc, founder of Silicon Graphics, hardware manifacture
@@ -356,33 +356,57 @@ Note:
 
 ---
 
-### Bad parts and common misconceptions
-
-* JavaScript has to many crap syntax elements <!-- .element: class="fragment" -->
-    * Yes... but they can be avoided! <!-- .element: class="fragment" -->
-    * Remember it was written in 10 days... <!-- .element: class="fragment" -->
-* JavaScript is slow! <!-- .element: class="fragment" -->
-    * True initially but mainly because of the DOM <!-- .element: class="fragment" -->
-    * When Chrome came out (2008) it added the JIT and greatly improved the DOM execution <!-- .element: class="fragment" -->
-* JavaScript is not... Java, C++ or Python! <!-- .element: class="fragment" -->
-    * Often forced to used it because of the Browser <!-- .element: class="fragment" -->
-    * One of the rare languages that can be used by professional and noobs <!-- .element: class="fragment" -->
+### Common misconceptions
+<ul>
+    <li class="fragment">JavaScript has to many bad parts!
+        <small>
+            <ul>
+                <li class="fragment">Yes... it has/had (var variables...) but mostly removed in ES6!</li>
+                <li class="fragment">Also, remember it was first written in 10 days...</li>
+            </ul>
+        </small>
+    </li>
+    <li class="fragment">JavaScript is not... Java (Or C++, or Python...)!
+        <small>
+            <ul>
+                <li class="fragment">Confusing name</li>
+                <li class="fragment">Often forced to used it because of the Browser</li>
+                <li class="fragment">One of the rare languages that can be used by professional and noobs</li>
+            </ul>
+        </small>
+    </li>
+    <li class="fragment">JavaScript is slow!
+        <small>
+            <ul>
+                <li class="fragment">True initially, and in part due to the DOM. No longer true today.</li>
+                <li class="fragment">When Chrome came out (2008) it added the JIT</li>
+                <li class="fragment">
+                    <img src="./public/js-speed.png">
+                </li>
+            </ul>
+        </small>
+    </li>
+</ul>
 
 ---
 
 ## Cool kids tried to replace JavaScript! 
-<h3 class="fragment">2011 - <img class="logo" src="./public/dart.png"/> was supposed to be the next gen JS </h3>
 
-<small class="fragment">It failed... but the fact it transpiled to JS allowed it to survive</small>
+<h3 class="fragment">2005 - Adobe tried <img class="logo" src="./public/flashplayer.png"/> Flash</h3>
+<h3 class="fragment">2007 - Microsoft tried <img class="logo" src="./public/silverlight.png"/> Silverlight</h3>
+<h3 class="fragment">2011 - Google tried <img class="logo" src="./public/dart.png"/> Dart</h3>
+
+<small class="fragment">They failed... but Dart survived because it transpiled to JS</small>
 
 Transpilation became a trend: <!-- .element: class="fragment" -->
 
-If you cant get rid of it, transpile to it.  <!-- .element: class="fragment" -->
-
 Note:
-- Like for teanagers, some cool kid (Google) tried to bully JS out of the game
-- Dart was supposed to be the next gen browser languages, they even made it mative to a special verison of Chrome
-- This allowed better browser support and innovation
+- Like for teanagers, some cool kid (MS, Adobe, Google) tried to bully JS out of the game
+- Adobes attemp was Flash (2005 had good adoption), That had quite some success for some time! but we all know had that ended...
+- SilverLight was MS attempt (2007) - Also failed quite miserably 
+- Google - (2011) Dart was supposed to be the next gen browser languages, they even made it mative to a special verison of Chrome
+- The transpilation method, in the end allowed better browser support and innovation
+- If you cant get rid of it, transpile to it.
 
 ---
 
@@ -456,6 +480,8 @@ But eventually...
 
 JavaScript was growing up <!-- .element: class="fragment" -->
 
+And eventually stabilized (a bit...)<!-- .element: class="fragment" -->
+
 >>> 
 
 # Where are we now?
@@ -510,12 +536,23 @@ Also the most demanded Language by companies
 
 ## It has invaded all platforms
 
-Browser, Mobile, Server, Desktop, OS
+Browser - all of them... <!-- .element: class="fragment" -->
 
-## It has stabilized
+Mobile - ReactNative, NativeScript... <!-- .element: class="fragment" -->
 
-Only a few dominating frameworks and better tooling
+Server - NodeJS, Deno <!-- .element: class="fragment" -->
 
+Desktop - Electron  <!-- .element: class="fragment" -->
+
+DataBase - MongoDB, Couchbase <!-- .element: class="fragment" -->
+
+OS - Windows 10 tile apps <!-- .element: class="fragment" -->
+
+TV - <!-- .element: class="fragment" -->
+
+Note:
+- Desktop: Spotify, Slack
+- TV: Netflix
 >>> 
 
 # What lies ahead?
@@ -551,6 +588,24 @@ Re-use existing code and port to the browser!  <!-- .element: class="fragment" -
 ---
 
 ## The end of the JavaScript monopoly!
+
+Note:
+- Still missing a common GC implementation but people are working on it
+- Once available, people will be able to code in any language they want for the browser
+- Exiting time ahead!
+
+---
+
+## "Always bet on Javascript"
+<sub>- Brendan Eich</sub>
+
+Note:
+* Many have predicte the end of JavaScript
+* Predicted that JS will eventually not be able to reach the demand
+* Until now it has always been wrong. 
+
+JS is certainly not the only dominant language or the “best tool” for every situation. 
+But increasingly, most tech stacks have it as a central part of their strategy.
 
 >>>
 
