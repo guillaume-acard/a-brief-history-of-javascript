@@ -43,7 +43,7 @@ Note:
 ---
 
 ## Time Berner Lee
-![Time Berner Lee](/./public/time-berners-lee.jpg)
+![Time Berner Lee](./public/time-berners-lee.jpg)
 
 Note:
 - Create or the WWW
