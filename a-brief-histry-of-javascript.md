@@ -200,7 +200,7 @@ Note:
 
 ---
 
-<h3>There was a catch... <span class="fragment">It wasen't ready...</span></h3>
+<h3>There was a catch... <span class="fragment">It wasn't ready...</span></h3>
 
 ---
 
